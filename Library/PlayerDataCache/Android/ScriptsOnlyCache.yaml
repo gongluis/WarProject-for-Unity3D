@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp.dll:
-    - Test
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -17,7 +15,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/01-build.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -39,9 +37,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1492}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 2214}
+      Script: {instanceID: 2212}
     - Class: 114
       Script: {instanceID: 2636}
     - Class: 114
@@ -51,9 +49,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3356}
     - Class: 114
-      Script: {instanceID: 3492}
-    - Class: 114
-      Script: {instanceID: 17682}
+      Script: {instanceID: 3494}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -451,6 +447,12 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 51b22fdd1e326e72bcaa63aafa7e1f46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Test
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -497,13 +499,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 51b22fdd1e326e72bcaa63aafa7e1f46
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Test
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Repositories/WarProject/Build/androidpro
+  - Assets/Scenes/01-build.unity
+  playerPath: C:/Repositories/WarProject/Build/war.apk
